@@ -9,7 +9,7 @@ export default function Header(){
                 <img src="profilePicNotFound.png" alt="Profile picture" />
             </Link>
         </header>
-        <h2>Order your favourite food!</h2>
+        <h2 className="subHeader">Order your favourite food!</h2>
         </>
     )
 }

@@ -1,8 +1,9 @@
 import { Search, List, Heart } from 'lucide-react';
 import burgerData from "./../assets/burgerData.json"
-import { Link } from 'react-router';
+import { Link, useParams } from 'react-router';
 
 export default function BurgerSection(){
+    let { burgerId } = useParams();
     return(
         <>
             <section className='search-section'>
