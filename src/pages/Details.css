@@ -90,6 +90,18 @@
 .spiciness input{
     margin: 5px 0;
     width: 100%;
+    box-shadow: 0 0 10px #ffa6004b;
+    height: 8px;
+}
+
+input[type=range]::-ms-track {
+  width: 100%;
+  cursor: pointer;
+
+  /* Hides the slider so custom styles can be added */
+  background: transparent; 
+  border-color: transparent;
+  color: transparent;
 }
 
 .spiciness div p{
@@ -121,6 +133,7 @@
     border-radius: 10px;
     font-weight: bold;
     font-size: 1.5em;
+    box-shadow: 0 5px 10px #ffa6005b;
 }
 
 .portions div p{

@@ -5,10 +5,10 @@ import "./Home.css"
 
 export default function Home(){
     return(
-        <>
+        <div className="home-background">
             <Header/>
             <BurgerSection/>
             <Nav/>
-        </>
+        </div>
     )
 }

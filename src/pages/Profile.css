@@ -25,7 +25,7 @@
 }
 
 .profile-image figure{
-    width: 35%;
+    width: 8em;
     height: 6em;
     margin: 0 auto;
 }
@@ -81,6 +81,13 @@
     z-index: 2;
 }
 
+.profile-label svg{
+    height: 16px;
+    margin-left: 4px;
+    position: relative;
+    top: 2px;
+}
+
 .profile-title{
     margin: 0;
 }
@@ -95,7 +102,7 @@
 }
 
 .edit-section{
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: calc(100% - 15px * 2);
     margin: 0 15px 15px 15px;
@@ -106,6 +113,8 @@
 .edit-section button{
     font-size: 1.2em;
     font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-items: center;
 }
 
 .edit-section button:first-child{
@@ -120,6 +129,17 @@
     background-color: white;
     color: #EF2A39;
     border: 3px solid #EF2A39;
-    padding: calc(20px - 3px * 2) calc(30px - 3px * 2);
+    padding: calc(23px - 3px * 2) calc(30px - 3px * 2);
     border-radius: 15px;
+}
+
+.edit-section span{
+    height: 0px;
+}
+
+.edit-section svg{
+    margin-left: 15px;
+    position: relative;
+    height: 30px;
+    bottom: 3px;
 }

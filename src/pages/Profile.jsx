@@ -1,4 +1,4 @@
-import { Settings, ArrowLeft } from 'lucide-react';
+import { Settings, ArrowLeft, LogOut, SquarePen, LockKeyhole } from 'lucide-react';
 import { Link } from "react-router";
 import "./Profile.css"
 
@@ -35,14 +35,14 @@ export default function Profile(){
                 </article>
                 <article>
                     <div>
-                        <p className='profile-label'>Password</p>
+                        <p className='profile-label'>Password<LockKeyhole /></p>
                     </div>
                     <p className='profile-title'>&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;</p>
                 </article>
             </section>
             <section className='edit-section'>
-                <button>Edit Profile</button>
-                <button>Log out</button>
+                <button>Edit Profile <span><SquarePen /></span></button>
+                <button>Log out <span><LogOut /></span></button>
             </section>
         </div>
     )
