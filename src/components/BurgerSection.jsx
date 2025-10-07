@@ -3,7 +3,6 @@ import burgerData from "./../assets/burgerData.json"
 import { Link, useParams } from 'react-router';
 
 export default function BurgerSection(){
-    let { burgerId } = useParams();
     return(
         <>
             <section className='search-section'>
@@ -14,11 +13,11 @@ export default function BurgerSection(){
                 <button className='filter-btn'><List /></button>
             </section>
             <section className="burger-section">
-                {burgerData.map((burger, index) => {
+                {burgerData.map((burger) => {
                     return(
-                        <Link to={"details/" + (index + 1)} key={burger.title + burger.id}>
+                        <Link to={"details/" + burger.id} key={burger.title + burger.id}>
                             <figure>
-                                <img src={burger.img} alt={burger.title + burger.id} />
+                                <img src={"/" + burger.img} alt={burger.subtitle} />
                             </figure>
                             <h3>{burger.title}</h3>
                             <p>{burger.subtitle}</p>

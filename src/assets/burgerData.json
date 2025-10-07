@@ -6,7 +6,7 @@
         "rating": 4.9,
         "img": "cheeseburger.png",
         "time": 26,
-        "description": "The Cheeseburger Wendy's Burger is a classic fast food that packs a punch of flavor in every bite. Made with a juicy beef patty cooked to perfection, it's topped with melted American cheese, crispy",
+        "description": "The Cheeseburger Wendy's Burger is a classic fast food that packs a punch of flavor in every bite. Made with a juicy beef patty cooked to perfection, it's topped with melted American cheese, crispy lettuce, ripe tomato, and crunchy pickles.",
         "spicy": 73,
         "price": 8.24
     },
@@ -16,10 +16,10 @@
         "subtitle": "Veggie Burger",
         "rating": 4.8,
         "img": "veggieburger.png",
-        "time": 26,
-        "description": "The Cheeseburger Wendy's Burger is a classic fast food that packs a punch of flavor in every bite. Made with a juicy beef patty cooked to perfection, it's topped with melted American cheese, crispy",
-        "spicy": 73,
-        "price": 8.24
+        "time": 22,
+        "description": "The veggieburger is a classic fast food that packs a punch of flavor in every bite. Made with melted American cheese, crispy lettuce, ripe tomato, and crunchy pickles.",
+        "spicy": 40,
+        "price": 8.50
     },
     {
         "id": 3,
@@ -27,10 +27,10 @@
         "subtitle": "Chicken Burger",
         "rating": 4.8,
         "img": "chickenburger.png",
-        "time": 26,
-        "description": "The Cheeseburger Wendy's Burger is a classic fast food that packs a punch of flavor in every bite. Made with a juicy beef patty cooked to perfection, it's topped with melted American cheese, crispy lettuce, ripe tomato, and crunchy pickles.",
-        "spicy": 73,
-        "price": 8.24
+        "time": 25,
+        "description": "The Chickenburger is a classic fast food that packs a punch of flavor in every bite. Made with a juicy chicken slice cooked to perfection, it's topped with melted American cheese, crispy lettuce, ripe tomato, and crunchy pickles.",
+        "spicy": 85,
+        "price": 8.00
     },
     {
         "id": 4,
@@ -38,9 +38,9 @@
         "subtitle": "Fried Chicken Burger",
         "rating": 4.5,
         "img": "friedChickenburger.png",
-        "time": 26,
-        "description": "The Cheeseburger Wendy's Burger is a classic fast food that packs a punch of flavor in every bite. Made with a juicy beef patty cooked to perfection, it's topped with melted American cheese, crispy lettuce, ripe tomato, and crunchy pickles.",
-        "spicy": 73,
-        "price": 8.24
+        "time": 24,
+        "description": "The Fried Chickenburger is a classic fast food that packs a punch of flavor in every bite. Made with a fried chicken fried to perfection, it's topped with melted American cheese, crispy lettuce, ripe tomato, and crunchy pickles.",
+        "spicy": 80,
+        "price": 8.00
     }
 ]
