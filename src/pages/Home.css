@@ -142,8 +142,6 @@ header img{
     flex-direction: column;
     width: 100%;
     align-items: center;
-    position: absolute;
-    bottom: 0;
 }
 
 .add-btn-background{

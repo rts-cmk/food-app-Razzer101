@@ -11,13 +11,13 @@ export default function Details(){
     
     return(
         <>
-            <figure className="details-image">
+            <section className="details-image">
                 <div>
                     <Link to="/"><ArrowLeft /></Link>
                     <button><Search /></button>
                 </div>
                 <img src={"/"+ detailsBurger.img} alt={detailsBurger.subtitle} />
-            </figure>
+            </section>
             <section className="details-section">
                 <h1>{detailsBurger.title}{detailsBurger.subtitle}</h1>
                 <p className="details-rating"><span>&#9733;</span> {detailsBurger.rating} - {detailsBurger.time} mins</p>
