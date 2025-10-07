@@ -1,12 +1,126 @@
-.Profile-background{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.profile-background{
     width: 100%;
     height: 100vh;
     background: radial-gradient(circle,#ff2a9d 0%, #ef2a39 100%);
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
 }
 
-.Profile-section{
+.profile-image{
+    padding: 0px 15px 15px 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-image a svg{
+    padding-top: 5px;
+    color: white;
+}
+
+.profile-image div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-image figure{
+    width: 35%;
+    height: 6em;
+    margin: 0 auto;
+}
+
+.profile-image img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    background-color: white;
+    border-radius: 20px;
+    border: 4px solid #EF2A39;
+    position: relative;
+    top: 10px;
+    box-shadow: 0 5px 10px #ef2a3a65;
+}
+
+.profile-image button{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.profile-section{
     background-color: white;
     border-radius: 20px 20px 0 0;
-    padding: 15px;
+    padding: 5em 15px 15px 15px;
     height: 100%;
+}
+
+.profile-section article{
+    border: 2px solid #c1c1c1;
+    padding: 20px 35px;
+    margin-bottom: 2em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    border-radius: 20px;
+}
+
+.profile-section article div{
+    height: 0;
+}
+
+.profile-label{
+    display: inline;
+    position: relative;
+    bottom: 32px;
+    right: 15px;
+    margin: 0;
+    color: #888888;
+    font-size: .85em;
+    background-color: white;
+    padding: 7px;
+    z-index: 2;
+}
+
+.profile-title{
+    margin: 0;
+}
+
+.profile-section article:last-child{
+    padding: 20px 35px;
+}
+
+.profile-section article:last-child .profile-title{
+    font-size: 3em;
+    line-height: 19px;
+}
+
+.edit-section{
+    position: absolute;
+    bottom: 0;
+    width: calc(100% - 15px * 2);
+    margin: 0 15px 15px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit-section button{
+    font-size: 1.2em;
+    font-family: "Roboto", sans-serif;
+}
+
+.edit-section button:first-child{
+    background-color: rgb(52, 52, 52);
+    color: white;
+    border: none;
+    padding: 20px 30px;
+    border-radius: 15px;
+}
+
+.edit-section button:last-child{
+    background-color: white;
+    color: #EF2A39;
+    border: 3px solid #EF2A39;
+    padding: calc(20px - 3px * 2) calc(30px - 3px * 2);
+    border-radius: 15px;
 }

@@ -4,33 +4,46 @@ import "./Profile.css"
 
 export default function Profile(){
     return(
-        <div className='Profile-background'>
-            <section className="Profile-image">
+        <div className='profile-background'>
+            <section className="profile-image">
                 <div>
                     <Link to="/"><ArrowLeft /></Link>
                     <button><Settings /></button>
                 </div>
-                <img src="/profilePicNotFound.png" alt="Profile picture" />
+                <figure>
+                    <img src="/profilePicNotFound.png" alt="Profile picture" />
+                </figure>
             </section>
-            <section className='Profile-section'>
-                <div>
-                    <p>Name</p>
-                    <p>Web Dev</p>
-                </div>
-                <div>
-                    <p>Email</p>
-                    <p>WebDev@gmail.com</p>
-                </div>
-                <div>
-                    <p>Delivery address</p>
-                    <p>Pulsen 8, 4000 Roskilde</p>
-                </div>
-                <div>
-                    <p>Password</p>
-                    <p>&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;</p>
-                </div>
+            <section className='profile-section'>
+                <article>
+                    <div>
+                        <p className='profile-label'>Name</p>
+                    </div>
+                    <p className='profile-title'>Web Dev</p>
+                </article>
+                <article>
+                    <div>
+                        <p className='profile-label'>Email</p>
+                    </div>
+                    <p className='profile-title'>WebDev@gmail.com</p>
+                </article>
+                <article>
+                    <div>
+                        <p className='profile-label'>Delivery address</p>
+                    </div>
+                    <p className='profile-title'>Pulsen 8, 4000 Roskilde</p>
+                </article>
+                <article>
+                    <div>
+                        <p className='profile-label'>Password</p>
+                    </div>
+                    <p className='profile-title'>&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;</p>
+                </article>
             </section>
-            <section className='edit-section'></section>
+            <section className='edit-section'>
+                <button>Edit Profile</button>
+                <button>Log out</button>
+            </section>
         </div>
     )
 }
